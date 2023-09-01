@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>codeSoft | landingPage</title>
+</head>
+<body>
+
+    <!-- header section start from here -->
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-3d-cube-sphere" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M6 17.6l-2 -1.1v-2.5" />
+                <path d="M4 10v-2.5l2 -1.1" />
+                <path d="M10 4.1l2 -1.1l2 1.1" />
+                <path d="M18 6.4l2 1.1v2.5" />
+                <path d="M20 14v2.5l-2 1.12" />
+                <path d="M14 19.9l-2 1.1l-2 -1.1" />
+                <path d="M12 12l2 -1.1" />
+                <path d="M18 8.6l2 -1.1" />
+                <path d="M12 12l0 2.5" />
+                <path d="M12 18.5l0 2.5" />
+                <path d="M12 12l-2 -1.12" />
+                <path d="M6 8.6l-2 -1.1" />
+            </svg>
+            <span class="ml-3 text-xl">Freelancing</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 text-black hover:cursor-pointer hover:text-red-500">Home</a>
+            <a class="mr-5 text-black hover:cursor-pointer hover:text-red-500">About</a>
+            <a class="mr-5 text-black hover:cursor-pointer hover:text-red-500">Services</a>
+            <a class="mr-5 text-black hover:cursor-pointer hover:text-red-500">contact us</a>
+          </nav>
+          <button class="inline-flex items-center bg-blue-500 text-black border-0 py-1 px-3 focus:outline-none hover:bg-blue-400 rounded text-base mt-4 md:mt-0">Sign in
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <!-- header section end here -->
+
+      <!-- about section start from here -->
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Full stack web developer
+              <br class="hidden lg:inline-block">I am shrey sadhukhan from INDIA
+            </h1>
+            <p class="text-3xl text-bold hover:text-red-500">Am a freelancer</p><br>
+            <p class="mb-8 leading-relaxed">We're not limited to just one side of web development. Our team possesses a comprehensive skill set covering both front-end and back-end technologies. This allows us to create fully functional, end-to-end web applications.</p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Read More</button>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="data:image/png;base64,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">
+          </div>
+        </div>
+      </section>
+    <!-- about section end here -->
+
+    <!-- service section start from here -->
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Freeelancing products</h2>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Tools and services</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Web Development</h2>
+              <p class="leading-relaxed text-base mb-4">
+                Website design and development. <br>
+                Custom web application development. <br>
+                E-commerce website development. <br>
+                Website maintenance and updates.</p>
+              <a class="text-indigo-500 inline-flex items-center">Buy
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Graphic Design</h2>
+              <p class="leading-relaxed text-base mb-4">
+                Logo design. <br>
+                Branding and identity design. <br>
+                Print and digital marketing materials. <br>
+                Illustrations and infographics.</p>
+              <a class="text-indigo-500 inline-flex items-center">Buy
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Mobile App Development</h2>
+              <p class="leading-relaxed text-base mb-4">
+                Android and iOS app development. <br>
+                App UI/UX design. <br>
+                App maintenance and updates.</p>
+              <a class="text-indigo-500 inline-flex items-center">Buy
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Digital Marketing</h2>
+              <p class="leading-relaxed text-base mb-4">
+                Search engine optimization (SEO). <br>
+                Social media marketing and management. <br>
+                Pay-per-click (PPC) advertising. <br>
+                Email marketing campaigns.</p>
+              <a class="text-indigo-500 inline-flex items-center">Buy
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Load More</button>
+        </div>
+      </section>
+      <!-- services section end here -->
+
+    <!-- client section start from here -->
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Clients and Services</h1>
+          </div>
+          <div class="flex flex-wrap -m-4 text-center">
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M8 17l4 4 4-4m-4-5v9"></path>
+                  <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                <p class="leading-relaxed">Downloads</p>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">1.3K</h2>
+                <p class="leading-relaxed">Users</p>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+                  <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">74</h2>
+                <p class="leading-relaxed">Files</p>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+                <p class="leading-relaxed">Places</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- client section end here -->
+
+    <!-- services buy options start from here -->
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Database pricing for uploading the websites sites</p>
+          </div>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-left whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Plan</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Speed</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Storage</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Price</th>
+                  <th class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="px-4 py-3">Start</td>
+                  <td class="px-4 py-3">5 Mb/s</td>
+                  <td class="px-4 py-3">15 GB</td>
+                  <td class="px-4 py-3 text-lg text-gray-900">Free</td>
+                  <td class="w-10 text-center">
+                    <input name="plan" type="radio">
+                  </td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Pro</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">25 Mb/s</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">25 GB</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$24</td>
+                  <td class="border-t-2 border-gray-200 w-10 text-center">
+                    <input name="plan" type="radio">
+                  </td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Business</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">36 Mb/s</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">40 GB</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$50</td>
+                  <td class="border-t-2 border-gray-200 w-10 text-center">
+                    <input name="plan" type="radio">
+                  </td>
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Exclusive</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">48 Mb/s</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">120 GB</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$72</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                    <input name="plan" type="radio">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
+            <button class="flex ml-auto w-full text-4xl justify-center text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Buy</button>
+          </div>
+        </div>
+      </section>
+    <!-- services buy options END here -->
+    <!-- contact section start from here -->
+    <section class="text-gray-600 body-font relative">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                  <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                  <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+              </div>
+              <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                <a class="text-indigo-500">shrey.sadhukhan21@email.com</a>
+                <p class="leading-normal my-5">muradnagar.
+                  <br>Ghaziabad, IN 201206
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact section end here -->
+
+    <!-- footer section start from here -->
+    <footer class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-3d-cube-sphere" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M6 17.6l-2 -1.1v-2.5" />
+                <path d="M4 10v-2.5l2 -1.1" />
+                <path d="M10 4.1l2 -1.1l2 1.1" />
+                <path d="M18 6.4l2 1.1v2.5" />
+                <path d="M20 14v2.5l-2 1.12" />
+                <path d="M14 19.9l-2 1.1l-2 -1.1" />
+                <path d="M12 12l2 -1.1" />
+                <path d="M18 8.6l2 -1.1" />
+                <path d="M12 12l0 2.5" />
+                <path d="M12 18.5l0 2.5" />
+                <path d="M12 12l-2 -1.12" />
+                <path d="M6 8.6l-2 -1.1" />
+              </svg>
+            <span class="ml-3 text-xl">Freelancing</span>
+          </a>
+          <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2023 shrey —
+            <a href="https://twitter.com/knyttneve" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@shrey sadhukhan</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-400">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-400">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-400">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-400">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+    <!-- footer section end here -->
+</body>
+</html>
