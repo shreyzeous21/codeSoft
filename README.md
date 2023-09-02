@@ -1,5 +1,5 @@
 # codeSoft
-#level 1 
-
-https://codesoft-calc.netlify.app/ --task1
-https://codesoft-landing-page.netlify.app/ --task2
+# level 1 
+                                                           
+# tas1 https://codesoft-calc.netlify.app/ 
+# task2 https://codesoft-landing-page.netlify.app/ 
